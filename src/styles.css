@@ -85,6 +85,14 @@ body {
 	opacity: 0;
 }
 
+.highlight {
+	transition: all 0.3s;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
 #b1 {
 	text-align: right;
 }
