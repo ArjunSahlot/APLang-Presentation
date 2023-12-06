@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#article {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
+#title {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+#date {
+	font-size: 1.5rem;
+}
+
+#author {
+	margin-top: 10px;
+	font-size: 1.7rem;
+	color: #777777;
+	text-decoration: underline;
+}
+
+#authorsub {
+	margin-top: 5px;
+	font-size: 1.2rem;
+	color: #777777;
+}
+
+#paragraphs {
+	margin-top: 80px;
+	font-size: 1.8rem;
+	width: 80%;
+}
+
+#paragraphs div {
+	margin-bottom: 4rem;
+}
