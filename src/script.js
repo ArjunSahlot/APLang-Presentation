@@ -7,9 +7,11 @@ hoverCovers.forEach(function (hoverCover) {
 
 function toggleVisibility(idName) {
 	var cover = document.querySelector("#" + idName);
-	var highlight = document.querySelector(".h" + idName.slice(1));
+	var highlights = document.getElementsByClassName("h" + idName.slice(1));
 	cover.classList.toggle("revealed");
-	highlight.classList.toggle("yellow");
+	for (var i = 0; i < highlights.length; i++) {
+		highlights[i].classList.toggle("yellow");
+	}
 }
 
 function positionHoverBoxes() {
