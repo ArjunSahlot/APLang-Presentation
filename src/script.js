@@ -1,17 +1,7 @@
 var hoverCovers = document.querySelectorAll(".hover-cover");
 hoverCovers.forEach(function (hoverCover) {
 	hoverCover.addEventListener("click", function () {
-		hoverCover.classList.toggle("shake");
-		hoverCover.classList.add("shake");
-		hoverCover.addEventListener(
-			"animationend",
-			() => {
-				hoverCover.classList.remove("shake");
-			},
-			{ once: true }
-		);
-
-		// toggleVisibility(hoverCover.id);
+		toggleVisibility(hoverCover.id);
 	});
 });
 
