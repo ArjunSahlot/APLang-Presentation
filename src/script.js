@@ -68,11 +68,13 @@ function positionHoverBoxes() {
 	setupArticleSide(articleRect, cb5, 1505, 150, true, 500);
 	setupLeftBox(articleRect, b5, c5, 1687, -130);
 
-	setupRightBox(articleRect, b6, c6, 380);
+	setupRightBox(articleRect, b6, c6, 300);
 	setupRightBox(articleRect, b7, c7, 840);
 	setupRightBox(articleRect, b8, c8, 1120);
 	setupRightBox(articleRect, b9, c9, 1280);
 	setupRightBox(articleRect, b10, c10, 1680);
+
+	setupRightBox(articleRect, b11, c11, 580);
 }
 
 function setupArticleSide(a, b, y, x = 0, left = true, h = 0) {

@@ -11,7 +11,7 @@ body {
 #article {
 	display: flex;
 	flex-direction: column;
-	max-width: 800px;
+	max-width: 801px;
 	border: 1px solid #ccc;
 	background-color: #ffffff;
 	padding: 40px;
