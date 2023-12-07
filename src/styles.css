@@ -81,7 +81,7 @@ body {
 	transition: opacity 0.3s;
 }
 
-.hover-cover.revealed {
+.revealed {
 	opacity: 0;
 }
 
@@ -91,4 +91,26 @@ body {
 
 .yellow {
 	background-color: yellow;
+}
+
+.green {
+	background-color: #33ff33;
+}
+
+.red {
+	background-color: #ff6666;
+}
+
+.orange {
+	background-color: #ff9933;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.curly {
+	position: absolute;
+	transition: all 0.3s;
+	pointer-events: none;
 }
