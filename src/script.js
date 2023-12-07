@@ -15,7 +15,7 @@ function toggleVisibility(idName) {
 		if (idName == "c9") {
 			highlights[i].classList.toggle("green");
 		} else {
-			highlights[i].classList.toggle("yellow");
+			highlights[i].classList.toggle("orange");
 		}
 	}
 }
